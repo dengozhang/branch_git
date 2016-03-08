@@ -36,6 +36,32 @@
   float: right;
   border-left:1px solid #ccc;
 }
+.menu {
+  width: 200px;
+  margin: 30px auto 0;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 0;
+}
+.menu li{
+  border-bottom: 1px solid #ccc;
+  text-decoration: none;
+}
+.menu li:last-child{
+  border-bottom: none;
+}
+.menu li a{
+  text-indent: 2em;
+  color: #489AF3;
+  width: 200px;
+  padding: 10px;
+  display: inline-block;
+}
+.menu li a:hover{
+  background-color: #489AF3;
+  color: #fff;
+}
+
 .content{
 
 }
