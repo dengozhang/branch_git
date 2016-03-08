@@ -23,12 +23,35 @@
 }
 
 .container{
-  height: 100vh;
+  min-height: 100vh;
   width: 80%;
   border-right: 1px solid #ccc;
   border-left: 1px solid #ccc;
   margin: 0 auto;
 }
+
+.aside{
+  width: 250px;
+  min-height: 100vh;
+  float: right;
+  border-left:1px solid #ccc;
+}
+.content{
+
+}
+.section{
+  height: 150px;
+  padding: 20px;
+  margin-right: 250px;
+}
+.title{
+  margin: 0;
+}
+.article{
+  height: 120px;
+  padding: 10px;
+}
+
 
 .footer{
   height: 100px;
